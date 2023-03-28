@@ -1,0 +1,63 @@
+.nav{
+    background-color: blue;
+    color: White;
+    padding: 10px 20px;
+ 
+   
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links a{
+    color: White;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+   
+}
+.links a:hover{
+    background-color: blueviolet;
+}
+.inputField{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.inputField input{
+    width: 50%;
+    padding: 12px;
+    font-size: 15px;
+    border: solid 3px blue;
+    border-radius: 20px;
+    color: blue;
+}
+.body{
+    background-color: #61dafb;
+}
+button{
+   margin:10px 45%;
+   padding: 10px 30px;
+   background-color: blue;
+   color: white;
+   border: none;
+   border-radius: 20px;
+}
+button:hover{
+    background-color: blueviolet;
+}
+hr{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    border: 2px solid blue;
+}
+.component-part{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+}

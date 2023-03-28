@@ -1,0 +1,18 @@
+.meals-compo{
+   width: 286px;
+   height: 286px;
+  margin: auto;
+   
+}
+.meals-compo img{
+    width: 100%;
+    margin-top: 10px;
+    
+}
+.full-card{
+    border: 2px solid white;
+    margin: 20px;
+}
+.meals-details{
+    text-align: center;
+}
