@@ -10,14 +10,20 @@
     justify-content: space-between;
     align-items: center;
 }
-.links a{
+.b{
     color: White;
     text-decoration: none;
     padding: 10px;
     border-radius: 15px;
    
 }
-.links a:hover{
+.c{
+    color: White;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+}
+.b:hover{
     background-color: blueviolet;
 }
 .inputField{
@@ -36,7 +42,7 @@
 .body{
     background-color: #61dafb;
 }
-button{
+.btn1{
    margin:10px 45%;
    padding: 10px 30px;
    background-color: blue;
@@ -44,7 +50,7 @@ button{
    border: none;
    border-radius: 20px;
 }
-button:hover{
+.btn1:hover{
     background-color: blueviolet;
 }
 hr{
@@ -61,3 +67,38 @@ hr{
     display: grid;
     grid-template-columns: repeat(3 ,1fr);
 }
+.total{
+    text-align: center;
+}
+.r{
+    color: red;
+}
+.icon{
+    display: none;
+}
+.c{
+    display: none;
+}
+@media screen and (max-width: 900px) {
+    .cards{
+        display: grid;
+    grid-template-columns: repeat(1 ,1fr); 
+    }
+    .component-part{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    .body{
+        width: 100%;
+    }
+    .b{
+        display: none;
+    }
+    .btn1{
+        margin:5px 40%; 
+    }
+    .c{
+        display: block;
+    }
+  }
+  

@@ -2,17 +2,37 @@
    width: 286px;
    height: 286px;
   margin: auto;
+  
    
 }
 .meals-compo img{
     width: 100%;
     margin-top: 10px;
+    border-radius: 20px;
     
 }
 .full-card{
     border: 2px solid white;
     margin: 20px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    height: 460px;
+    
 }
 .meals-details{
     text-align: center;
 }
+.details-btn{
+    width: 100%;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+    background-color: aqua;
+    
+}
+.details-btn:hover{
+    background-color: blue;
+    color: white;
+}
+
+  
